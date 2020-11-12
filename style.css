@@ -6,6 +6,8 @@ body{
         background-color: #0b081c;
         font-family: 'Open Sans',sans-serif;
         font-weight: 300;
+        margin:0;
+        padding:0;
     }
 #logo{
         padding: 5em;
@@ -21,6 +23,7 @@ p.presentation{
   opacity: 0;
   animation:appear 2s ease-in-out 4.5s;
   animation-fill-mode:forwards;
+  width:80%;
 }
 a{
   color:#D8007E;
